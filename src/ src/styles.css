@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b0f17; color: #e2e8f0; font-family: system-ui, sans-serif; }
+.app { display: flex; flex-direction: column; height: 100dvh; }
+header { display: flex; justify-content: space-between; padding: 10px 14px; background: #111827; }
+main { flex: 1; overflow: auto; padding: 8px; }
+.row { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 8px; }
+button { background: #1f2937; color: #cbd5e1; border: 0; border-radius: 6px; padding: 8px 10px; font-size: 13px; white-space: nowrap; }
+button.on { background: #3b82f6; color: #fff; }
+.chart-main { height: 50dvh; }
+.chart-rsi { height: 18dvh; margin-top: 4px; }
+nav { display: flex; background: #111827; }
+nav button { flex: 1; border-radius: 0; font-size: 11px; padding: 14px 2px; background: transparent; }
+nav button.on { background: transparent; color: #3b82f6; border-top: 2px solid #3b82f6; }
+.up { color: #22c55e; }
+.down { color: #ef4444; }
+.muted { color: #64748b; font-size: 12px; }
+.err { color: #f59e0b; font-size: 13px; }
